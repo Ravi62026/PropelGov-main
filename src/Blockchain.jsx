@@ -46,7 +46,9 @@ const getEthereumContract = async () => {
 
   if (connectedAccount) {
      const web3 = window.web3     
+
       const contract = new web3.eth.Contract(abi.abi,"0xbeE857694b61e34C056612df74A323786CcD5AE6")
+
       return contract
   } else {
     return getGlobalState('contract')

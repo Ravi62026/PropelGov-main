@@ -43,7 +43,7 @@ const Banner = () => {
       <p>
         {isStakeholder
           ? 'You can now raise proposals on this platform '
-          : 'Hey, when you contribute upto 0.00005 ether you become a stakeholder '}
+          : 'Hey, when you contribute upto 0.0000005 ether you become a stakeholder '}
       </p>
       <div className="flex flex-row justify-start items-center md:w-1/3 w-full mt-4">
         <input
